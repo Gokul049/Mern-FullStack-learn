@@ -1,0 +1,88 @@
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.position-parant{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.position-child{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.top-right{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+.bottom-left{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+button{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+button:hover{
+    background-color: blue;
+    padding: 30px 40px;
+}
+
+.parant>div{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.parant div:nth-child(1){
+    background-color: green;
+}
+
+.parant div:nth-child(2){
+    background-color: blue;
+}
+
+.parant div:nth-child(3)
+{
+    background-color: yellow;
+}
+
+.parant div:nth-child(1) div{
+    background-color: pink;
+}
