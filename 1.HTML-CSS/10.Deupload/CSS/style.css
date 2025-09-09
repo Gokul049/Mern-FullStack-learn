@@ -1,0 +1,250 @@
+:root {
+    --primary-color: #651FFF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+li{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.file,
+.lightning,
+.team,
+.privacy,
+.pricing,
+.work,
+.ready{
+    padding: 100px 0px;
+}
+
+.my-primary-color {
+    color: var(--primary-color);
+}
+
+.my-btn-primary {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    padding: 13px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.my-btn-outline {
+    border: 2px black solid;
+    padding: 13px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* file start */
+
+.file {
+    background-color: #EBE5FA;
+}
+
+.file-wrapper h1 {
+    font-weight: bolder;
+}
+
+.file-wrapper p {
+    color: #5C5F6E;
+}
+
+.file-wrapper h1>span>span {
+    color: var(--primary-color);
+}
+
+header a {
+    text-decoration: none;
+}
+
+/* file end */
+
+/* lightning start */
+
+.lightning-wrapper>div>div>div {
+    background-color: var(--primary-color);
+    padding: 50px;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.lightning-wrapper>div>div>div a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* lightning end */
+
+/* team start */
+
+.team-wrapper>div>div:nth-child(1)>div {
+    background-color: #FFF7ED;
+    border-radius: 20px;
+}
+
+.team-wrapper>div>div:nth-child(2)>div {
+    background-color: #E0F7FA;
+    border-radius: 20px;
+}
+
+.team-wrapper>div>div:nth-child(3)>div {
+    background-color: #ECECFE;
+    border-radius: 20px;
+}
+
+.team img {
+    width: 100%;
+}
+
+/* Team end */
+
+/* privacy start */
+
+.privacy-wrapper>div>div:last-child>div {
+    box-shadow: 0px 4px 24px 0px #f2f1f1;
+}
+
+.privacy-wrapper a {
+    text-decoration: none;
+}
+
+/* privacy end */
+
+/* pricing start */
+.pricing-wrapper ul {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.pricing-wrapper ul li {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.pricing-wrapper>div>div:first-child>div {
+    background-color: #FFFFFF;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.pricing-wrapper>div>div:last-child>div {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    padding: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.pricing {
+    background: url("../images/pricing/bg.svg") no-repeat center;
+    background-size: cover;
+}
+.pricing a{
+    background-color: var(--primary-color);
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+   display: block;
+}
+/* pricing end */
+
+/* ready start */
+.ready-wrapper>div>div:first-child a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.ready-wrapper>div>div:last-child a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.ready-wrapper>div>:first-child{
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 50px;
+    
+}
+.ready-wrapper>div>div:last-child>div{
+    background-color: #ECECFE;
+    color: var(--primary-color);
+    border-radius: 20px;
+    
+}
+/* ready end */
+
+/* footer start */
+footer{
+    background-color: #1A284E;
+    color: #FFFFFF;
+    padding: 100px 100px 40px 100px;
+    
+}
+footer img{
+    width: 100%;
+}
+.footer-wrapper ul{
+    padding-left: 0px;
+
+}
+.footer-wrapper ul li{
+    margin-bottom: 3px;
+}
+/* footer end */
+
+@media only screen and (min-width:768px) {
+    .pricing-wrapper>div>div:last-child>div {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .pricing-wrapper>div>div:last-child>div {
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 576px)
+{
+    .footer-wrapper{
+        text-align: center;
+    }
+    .img-child{
+        flex-direction: column;
+    }
+
+}
+
